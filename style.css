@@ -1,0 +1,66 @@
+body {
+  font-family: san-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(2,19,91);
+  background: linear-gradient(90deg, rgba(2,19,91,1) 0%, rgba(0,0,0,1) 50%, rgba(2,19,91,1) 100%);
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+}
+.result{
+  color: #fff;
+  font-size:20px;
+}
+select, input, button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input {
+  width:95%;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+      color: #fff;
+
+  font-size: 38px;
+}
+
+.github-icon {
+
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50%;
+}
+
+.github-icon svg {
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
